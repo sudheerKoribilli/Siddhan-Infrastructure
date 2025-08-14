@@ -166,9 +166,9 @@ export default function Home() {
                   className="w-18 h-12 hover:opacity-80 transition-opacity"
                 />
               </button>
-              <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="p-2 text-gray-600 hover:text-gray-900">
-                {isMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
-              </button>
+              <button onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)} className="p-2 text-gray-600 hover:text-gray-900">
+  {isMobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
+</button>
             </div>
 
             {/* Mobile Menu */}
